@@ -16,10 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
     {
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.font:UIFont.systemFont(ofSize: 24.0)]
         //window's root object
         window = UIWindow(frame:UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        let rootVC = UINavigationController(rootViewController: RecipeDetailPageVC.instantiate())
+        let rootVC = UINavigationController(rootViewController: AboutVC.instantiate())
         window?.rootViewController = rootVC
         
         return true

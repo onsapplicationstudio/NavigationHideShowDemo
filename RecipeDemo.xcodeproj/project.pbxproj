@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3823A98621391F810044A311 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A98521391F810044A311 /* SettingVC.swift */; };
+		3823A98A21394E520044A311 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823A98921394E520044A311 /* AboutVC.swift */; };
 		383977A421255A2E007A862C /* TapGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 383977A3212558E5007A862C /* TapGray.png */; };
 		383977A621255CF0007A862C /* CabbageWraps1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 383977A521255CED007A862C /* CabbageWraps1.jpg */; };
 		38A188242122F04B001D2CE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A188232122F04B001D2CE7 /* AppDelegate.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3823A98521391F810044A311 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		3823A98921394E520044A311 /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
 		383977A3212558E5007A862C /* TapGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TapGray.png; sourceTree = "<group>"; };
 		383977A521255CED007A862C /* CabbageWraps1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CabbageWraps1.jpg; sourceTree = "<group>"; };
 		38A188202122F04B001D2CE7 /* RecipeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +64,8 @@
 				383977A521255CED007A862C /* CabbageWraps1.jpg */,
 				38A188232122F04B001D2CE7 /* AppDelegate.swift */,
 				38A188352122F07D001D2CE7 /* RecipeDetailPageVC.swift */,
+				3823A98521391F810044A311 /* SettingVC.swift */,
+				3823A98921394E520044A311 /* AboutVC.swift */,
 				38A1882A2122F04B001D2CE7 /* Assets.xcassets */,
 				38A1882C2122F04B001D2CE7 /* LaunchScreen.storyboard */,
 				38A1882F2122F04B001D2CE7 /* Info.plist */,
@@ -140,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3823A98A21394E520044A311 /* AboutVC.swift in Sources */,
 				38A188242122F04B001D2CE7 /* AppDelegate.swift in Sources */,
+				3823A98621391F810044A311 /* SettingVC.swift in Sources */,
 				38A188362122F07E001D2CE7 /* RecipeDetailPageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
